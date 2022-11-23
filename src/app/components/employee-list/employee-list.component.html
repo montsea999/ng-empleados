@@ -1,0 +1,35 @@
+<div class="container">
+  <h2 class="text-center text-light mt-5">Listado de empleados</h2>
+  <app-count-employee [todos]="countEmployees()" [Administrativo]="countAdministrativo()" [Comercial]="countComercial()"
+    [Directivo]="countDirectivo()" [IT]="countIT()" [Juridico]="countJuridico()" [Mantenimiento]="countMantenimiento()"
+    (radioBtnChange)="changebutton($event)">
+  </app-count-employee>
+  <div class="card mt-3">
+    <div class="card-body">
+      <table class="table">
+        <thead class="bgGradient text-light">
+          <tr>
+            <th scope="col">
+              id
+            </th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Departamento</th>
+            <th scope="col">Salario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let emp of employeeList; let i = index">
+            <tr *ngIf="radioBtnSelected=== 'Todos' || radioBtnSelected=== emp.departamento">
+              <th scope="row">{{i+1}}</th>
+              <td>{{emp.name}}</td>
+              <td>{{emp.lastName}}</td>
+              <td>{{emp.departamento}}</td>
+              <td>{{emp.salary|currency:'EUR':'symbol-narrow':'4.2-2'}}</td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

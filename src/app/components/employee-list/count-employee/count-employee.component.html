@@ -1,0 +1,39 @@
+<div class="card mt-3">
+  <div class="card-body">
+    <div class="form-check form-check-inline">
+      <input [(ngModel)]="radioBtnSelected" class="form-check-input" type="radio" name="Departamento" id="todos"
+        value="Todos" (change)="onChange()">
+      <label class="form-check-label" for="todos">Todos({{todos}})</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input [(ngModel)]="radioBtnSelected" class="form-check-input" type="radio" name="Departamento"
+        id="Administrativo" value="Administrativo" (change)="onChange()">
+      <label class="form-check-label" for="Administrativo">Administrativo({{Administrativo}})</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input [(ngModel)]="radioBtnSelected" class="form-check-input" type="radio" name="Departamento" id="Comercial"
+        value="Comercial" (change)="onChange()">
+      <label class="form-check-label" for="Comercial">Comercial({{Comercial}})</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input [(ngModel)]="radioBtnSelected" class="form-check-input ml-2" type="radio" name="Departamento" id="IT"
+        value="IT" (change)="onChange()">
+      <label class="form-check-label" for="IT">IT({{IT}})&nbsp;&nbsp;&nbsp;</label>
+      <div class="form-check form-check-inline">
+        <input [(ngModel)]="radioBtnSelected" class="form-check-input" type="radio" name="Departamento" id="Directivo"
+          value="Directivo" (change)="onChange()">
+        <label class="form-check-label mr-1" for="Directivo">Directivo({{Directivo}})</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input [(ngModel)]="radioBtnSelected" class="form-check-input" type="radio" name="Departamento"
+          id="Mantenimiento" value="Mantenimiento" (change)="onChange()">
+        <label class="form-check-label mr-1" for="Mantenimiento">Mantenimiento({{Mantenimiento}})</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input [(ngModel)]="radioBtnSelected" class="form-check-input" type="radio" name="Departamento" id="Juridico"
+          value="Juridico" (change)="onChange()">
+        <label class="form-check-label mr-1" for="Juridico">Jurídico({{Juridico}})</label>
+      </div>
+
+    </div>
+  </div>

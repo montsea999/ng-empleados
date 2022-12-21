@@ -35,7 +35,7 @@ export class EmployeeListComponent implements OnInit {
       name: 'Olga',
       lastName: 'Gutiérrez',
       departamento: 'Administrativo',
-      salary: 16000,
+      salary: 15000,
     },
     {
       id: 5,
@@ -55,8 +55,8 @@ export class EmployeeListComponent implements OnInit {
       id: 7,
       name: 'Oscar',
       lastName: 'Rodríguez',
-      departamento: 'Comercial',
-      salary: 23000,
+      departamento: 'IT',
+      salary: 20000,
     },
     {
       id: 8,
@@ -90,8 +90,8 @@ export class EmployeeListComponent implements OnInit {
       id: 12,
       name: 'Oscar',
       lastName: 'López',
-      departamento: 'Administrativo',
-      salary: 18000,
+      departamento: 'Comercial',
+      salary: 19000,
     },
     {
       id: 13,
@@ -130,8 +130,8 @@ export class EmployeeListComponent implements OnInit {
     },
     {
       id: 18,
-      name: 'Sandra',
-      lastName: 'Ramos',
+      name: 'Sonia',
+      lastName: 'Ramoneda',
       departamento: 'Juridico',
       salary: 21500,
     },

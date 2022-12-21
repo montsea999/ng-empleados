@@ -19,6 +19,7 @@
           </tr>
         </thead>
         <tbody>
+
           <ng-container *ngFor="let emp of employeeList; let i = index">
             <tr *ngIf="radioBtnSelected=== 'Todos' || radioBtnSelected=== emp.departamento">
               <th scope="row">{{i+1}}</th>

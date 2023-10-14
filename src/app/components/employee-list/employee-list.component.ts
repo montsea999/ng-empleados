@@ -14,7 +14,7 @@ export class EmployeeListComponent implements OnInit {
       name: 'Juan',
       lastName: 'Mas',
       departamento: 'IT',
-      salary: 24000,
+      salary: 22000,
     },
     {
       id: 2,
@@ -35,14 +35,14 @@ export class EmployeeListComponent implements OnInit {
       name: 'Olga',
       lastName: 'Gutiérrez',
       departamento: 'Administrativo',
-      salary: 15000,
+      salary: 17000,
     },
     {
       id: 5,
       name: 'Ana',
       lastName: 'Grau',
       departamento: 'Administrativo',
-      salary: 17000,
+      salary: 20000,
     },
     {
       id: 6,
@@ -56,7 +56,7 @@ export class EmployeeListComponent implements OnInit {
       name: 'Oscar',
       lastName: 'Rodríguez',
       departamento: 'IT',
-      salary: 17500,
+      salary: 19000,
     },
     {
       id: 8,
@@ -84,7 +84,7 @@ export class EmployeeListComponent implements OnInit {
       name: 'Daniel',
       lastName: 'Romeo',
       departamento: 'IT',
-      salary: 16500,
+      salary: 26000,
     },
     {
       id: 12,
@@ -112,14 +112,14 @@ export class EmployeeListComponent implements OnInit {
       name: 'Sandra',
       lastName: 'Ramos',
       departamento: 'Administrativo',
-      salary: 16000,
+      salary: 19000,
     },
     {
       id: 16,
       name: 'Sandra',
       lastName: 'Lorenzo',
-      departamento: 'Juridico',
-      salary: 22000,
+      departamento: 'Jurídico',
+      salary: 24000,
     },
     {
       id: 17,
@@ -132,15 +132,15 @@ export class EmployeeListComponent implements OnInit {
       id: 18,
       name: 'Sonia',
       lastName: 'Ramoneda',
-      departamento: 'Juridico',
-      salary: 21500,
+      departamento: 'Jurídico',
+      salary: 23500,
     },
     {
       id: 19,
       name: 'Sol',
       lastName: 'Rodríguez',
-      departamento: 'Juridico',
-      salary: 20000,
+      departamento: 'Jurídico',
+      salary: 25000,
     },
     {
       id: 20,
@@ -154,16 +154,15 @@ export class EmployeeListComponent implements OnInit {
       name: 'Anabel',
       lastName: 'Santos',
       departamento: 'IT',
-      salary: 18500,
+      salary: 30000,
     },
     {
       id: 22,
       name: 'Mónica',
       lastName: 'Benítez',
       departamento: 'IT',
-      salary: 20000,
+      salary: 45000,
     },
-
   ];
 
   radioBtnSelected: string = 'Todos'; //gracias al banana in box, almacenara el valor
